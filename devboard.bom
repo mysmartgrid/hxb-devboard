@@ -1,0 +1,41 @@
+Partlist exported from /home/kellerd/eagle/Devboard/devboard.sch at 3/30/12 11:20 AM
+
+Part Value        Device          Package         Description                                                      
+ANT1              ANTENNA         PAD-01          Antenna                                                          
+B1                BALUN+LP        BALUN0805       Balun + Low Pass Filter                                          
+C1   18pF         C-EUC0603       C0603           CAPACITOR, European symbol                                       
+C2   1uF          C-EUC0805       C0805           CAPACITOR, European symbol                                       
+C3   1uF          C-EUC0805       C0805           CAPACITOR, European symbol                                       
+C4   18pF         C-EUC0603       C0603           CAPACITOR, European symbol                                       
+C5   1uF          C-EUC0603       C0603           CAPACITOR, European symbol                                       
+C6   1uF          C-EUC0603       C0603           CAPACITOR, European symbol                                       
+C8   1uF          C-EUC0603       C0603           CAPACITOR, European symbol                                       
+C9   1uF          C-EUC0603       C0603           CAPACITOR, European symbol                                       
+C13  220nF        C-EUC0805       C0805           CAPACITOR, European symbol                                       
+C14  100nF        C-EUC0805       C0805           CAPACITOR, European symbol                                       
+C19  1uF          C-EUC0603       C0603           CAPACITOR, European symbol                                       
+C24  100pF        C-EUC0603       C0603           CAPACITOR, European symbol                                       
+C26  1uF          C-EUC0603       C0603           CAPACITOR, European symbol                                       
+C27  1uF          C-EUC0603       C0603           CAPACITOR, European symbol                                       
+IC1  ATMEGA644A   ATMEGA644A      TQFP44          8-bit Microcontroller with 64K Bytes In-System Programmable Flash
+JP1               PINHD-1X5       1X05            PIN HEADER                                                       
+JP2               PINHD-1X5       1X05            PIN HEADER                                                       
+JP3               PINHD-1X5       1X05            PIN HEADER                                                       
+JP4               PINHD-1X5       1X05            PIN HEADER                                                       
+LED1              LEDCHIP-LED0603 CHIP-LED0603    LED                                                              
+LED2              LEDCHIP-LED0603 CHIP-LED0603    LED                                                              
+LED3              LEDCHIP-LED0603 CHIP-LED0603    LED                                                              
+PAD1              SMD2            SMD1,27-2,54    SMD PAD                                                          
+PAD2              SMD2            SMD1,27-2,54    SMD PAD                                                          
+Q1   CRYSTALX22   CRYSTALX22      X22                                                                              
+R1   470R         R-EU_R0603      R0603           RESISTOR, European symbol                                        
+R2   82R          R-EU_R0603      R0603           RESISTOR, European symbol                                        
+R3   10k          R-EU_R0603      R0603           RESISTOR, European symbol                                        
+R4   1k           R-EU_R0603      R0603           RESISTOR, European symbol                                        
+R10  10k          R-EU_R0603      R0603           RESISTOR, European symbol                                        
+R11  0R           R-EU_R0603      R0603           RESISTOR, European symbol                                        
+R22  82R          R-EU_R0603      R0603           RESISTOR, European symbol                                        
+R24  82R          R-EU_R0603      R0603           RESISTOR, European symbol                                        
+S1                TASTER-9314_SMD TASTER-9314_SMD                                                                  
+U1                AT86RF212       32QN2           AT86RF212 - Low-Power SPI-based 700/800/900 MHz Transceiver      
+X1   MICROMATCH-8 MICROMATCH-8    MICROMATCH-8    MicroMaTch 8  7-215464-8 / 0-215464-8                            
