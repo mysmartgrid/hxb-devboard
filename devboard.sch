@@ -8071,7 +8071,7 @@ DDEController.pdf</description>
 <part name="R25" library="rcl" deviceset="R-EU_" device="R0603" value="0R"/>
 <part name="R26" library="rcl" deviceset="R-EU_" device="R0603" value="0R"/>
 <part name="U$1" library="artwork" deviceset="HEXAKRAKE" device=""/>
-<part name="JP5" library="pinhead" deviceset="PINHD-1X8" device=""/>
+<part name="JP4" library="pinhead" deviceset="PINHD-1X8" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8172,7 +8172,7 @@ DDEController.pdf</description>
 <instance part="R25" gate="G$1" x="172.72" y="43.18" rot="R90"/>
 <instance part="R26" gate="G$1" x="200.66" y="43.18" rot="R90"/>
 <instance part="U$1" gate="G$1" x="111.76" y="22.86"/>
-<instance part="JP5" gate="A" x="55.88" y="20.32" rot="R180"/>
+<instance part="JP4" gate="A" x="55.88" y="20.32" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -8356,7 +8356,7 @@ DDEController.pdf</description>
 <pinref part="R27" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="JP5" gate="A" pin="1"/>
+<pinref part="JP4" gate="A" pin="1"/>
 <wire x1="58.42" y1="10.16" x2="63.5" y2="10.16" width="0.1524" layer="91"/>
 <label x="63.5" y="10.16" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -8384,6 +8384,11 @@ DDEController.pdf</description>
 <label x="246.38" y="142.24" size="1.27" layer="95" xref="yes"/>
 <pinref part="IC1" gate="G$1" pin="(PCINT14/MISO)PB6"/>
 </segment>
+<segment>
+<pinref part="JP4" gate="A" pin="7"/>
+<wire x1="58.42" y1="25.4" x2="63.5" y2="25.4" width="0.1524" layer="91"/>
+<label x="63.5" y="25.4" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="MOSI" class="0">
 <segment>
@@ -8395,6 +8400,11 @@ DDEController.pdf</description>
 <wire x1="243.84" y1="139.7" x2="246.38" y2="139.7" width="0.1524" layer="91"/>
 <label x="246.38" y="139.7" size="1.27" layer="95" xref="yes"/>
 <pinref part="IC1" gate="G$1" pin="(PCINT13/MOSI)PB5"/>
+</segment>
+<segment>
+<pinref part="JP4" gate="A" pin="8"/>
+<wire x1="58.42" y1="27.94" x2="63.5" y2="27.94" width="0.1524" layer="91"/>
+<label x="63.5" y="27.94" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SEL1" class="0">
@@ -8685,7 +8695,7 @@ DDEController.pdf</description>
 <pinref part="IC1" gate="G$1" pin="(PCINT8/XCK0/T0)PB0"/>
 </segment>
 <segment>
-<pinref part="JP5" gate="A" pin="5"/>
+<pinref part="JP4" gate="A" pin="5"/>
 <wire x1="58.42" y1="20.32" x2="63.5" y2="20.32" width="0.1524" layer="91"/>
 <label x="63.5" y="20.32" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -8697,7 +8707,7 @@ DDEController.pdf</description>
 <pinref part="IC1" gate="G$1" pin="(PCINT9/CLKO/T1)PB1"/>
 </segment>
 <segment>
-<pinref part="JP5" gate="A" pin="4"/>
+<pinref part="JP4" gate="A" pin="4"/>
 <wire x1="58.42" y1="17.78" x2="63.5" y2="17.78" width="0.1524" layer="91"/>
 <label x="63.5" y="17.78" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -8709,7 +8719,7 @@ DDEController.pdf</description>
 <pinref part="IC1" gate="G$1" pin="(PCINT10/INT2/AIN0)PB2"/>
 </segment>
 <segment>
-<pinref part="JP5" gate="A" pin="3"/>
+<pinref part="JP4" gate="A" pin="3"/>
 <wire x1="58.42" y1="15.24" x2="63.5" y2="15.24" width="0.1524" layer="91"/>
 <label x="63.5" y="15.24" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -8721,7 +8731,7 @@ DDEController.pdf</description>
 <pinref part="IC1" gate="G$1" pin="(PCINT11/OC0A/AIN1)PB3"/>
 </segment>
 <segment>
-<pinref part="JP5" gate="A" pin="2"/>
+<pinref part="JP4" gate="A" pin="2"/>
 <wire x1="58.42" y1="12.7" x2="63.5" y2="12.7" width="0.1524" layer="91"/>
 <label x="63.5" y="12.7" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -8736,6 +8746,11 @@ DDEController.pdf</description>
 <wire x1="53.34" y1="106.68" x2="48.26" y2="106.68" width="0.1524" layer="91"/>
 <label x="48.26" y="106.68" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="U1" gate="G$1" pin="SCLK"/>
+</segment>
+<segment>
+<pinref part="JP4" gate="A" pin="6"/>
+<wire x1="58.42" y1="22.86" x2="63.5" y2="22.86" width="0.1524" layer="91"/>
+<label x="63.5" y="22.86" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="PA7" class="0">
@@ -9059,27 +9074,6 @@ DDEController.pdf</description>
 <wire x1="15.24" y1="22.86" x2="20.32" y2="22.86" width="0.1524" layer="91"/>
 <label x="20.32" y="22.86" size="1.27" layer="95" xref="yes"/>
 <pinref part="JP2" gate="A" pin="5"/>
-</segment>
-</net>
-<net name="N$18" class="0">
-<segment>
-<pinref part="JP5" gate="A" pin="6"/>
-<wire x1="58.42" y1="22.86" x2="63.5" y2="22.86" width="0.1524" layer="91"/>
-<label x="63.5" y="22.86" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$19" class="0">
-<segment>
-<pinref part="JP5" gate="A" pin="7"/>
-<wire x1="58.42" y1="25.4" x2="63.5" y2="25.4" width="0.1524" layer="91"/>
-<label x="63.5" y="25.4" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$20" class="0">
-<segment>
-<pinref part="JP5" gate="A" pin="8"/>
-<wire x1="58.42" y1="27.94" x2="63.5" y2="27.94" width="0.1524" layer="91"/>
-<label x="63.5" y="27.94" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
