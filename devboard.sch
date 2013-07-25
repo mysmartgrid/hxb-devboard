@@ -8005,10 +8005,10 @@ DDEController.pdf</description>
 </classes>
 <parts>
 <part name="FRAME1" library="frames" deviceset="A4L-LOC" device=""/>
-<part name="C13" library="rcl" deviceset="C-EU" device="C0805" value="220nF"/>
+<part name="C13" library="rcl" deviceset="C-EU" device="C0603" value="220nF"/>
 <part name="C2" library="rcl" deviceset="C-EU" device="C0603" value="1uF"/>
 <part name="C3" library="rcl" deviceset="C-EU" device="C0603" value="1uF"/>
-<part name="C14" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
+<part name="C14" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
 <part name="C5" library="rcl" deviceset="C-EU" device="C0603" value="1uF"/>
 <part name="C6" library="rcl" deviceset="C-EU" device="C0603" value="1uF"/>
 <part name="C19" library="rcl" deviceset="C-EU" device="C0603" value="1uF"/>
