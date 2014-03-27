@@ -1721,11 +1721,11 @@ minimale Strichstärke: &lt;b&gt;0.2 mm&lt;/b&gt;&lt;br&gt;&lt;br&gt;
 <wire x1="21.3" y1="31.3" x2="14.8" y2="37.8" width="0.254" layer="16"/>
 <wire x1="21.3" y1="28.7" x2="21.3" y2="31.3" width="0.254" layer="16"/>
 <wire x1="21.2" y1="28.6" x2="21.3" y2="28.7" width="0.254" layer="16"/>
-<wire x1="19.4727" y1="27.2727" x2="20.8" y2="28.6" width="0.254" layer="1"/>
+<wire x1="19.439275" y1="27.239275" x2="20.8" y2="28.6" width="0.254" layer="1"/>
 <wire x1="20.8" y1="28.6" x2="21.2" y2="28.6" width="0.254" layer="1"/>
 <via x="21.2" y="28.6" extent="1-16" drill="0.3"/>
 <contactref element="U2" pad="23"/>
-<wire x1="19.378875" y1="27.239275" x2="19.4727" y2="27.2727" width="0" layer="19" extent="1-1"/>
+<wire x1="19.439275" y1="27.239275" x2="19.378875" y2="27.239275" width="0.254" layer="1"/>
 </signal>
 <signal name="TDI">
 <contactref element="X1" pad="5"/>
