@@ -8092,6 +8092,7 @@ DDEController.pdf</description>
 <text x="147.32" y="5.08" size="1.016" layer="91">solder pads for antenna</text>
 <text x="167.64" y="68.58" size="1.778" layer="97">alternative</text>
 <text x="195.58" y="68.58" size="1.778" layer="97">alternative</text>
+<text x="20.32" y="132.08" size="1.778" layer="97">do not populate C1, C4!</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
